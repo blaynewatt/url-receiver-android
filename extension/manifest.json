@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "URL Receiver Sender",
+  "version": "1.0",
+  "description": "Send browser tab URLs to your Android device securely via Cloud Relay.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
