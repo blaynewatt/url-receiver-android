@@ -26,7 +26,7 @@ The Android app supports two connection modes:
 2. Open the app and navigate to **Configuration**.
 3. Select the **Cloud Relay** tab.
 4. Input your relay server address:
-   - Example: `wss://web-relay.onrender.com`
+   - Example: `wss://my-address.onrender.com`
 5. Choose a private, unique **Secret Session Token** (e.g., `my-secure-token`).
 6. Enable your desired automations:
    - **Auto-open URLs in browser** (launches default browser when URL arrives).
@@ -47,7 +47,7 @@ The Chrome Extension allows you to transmit your active browser tab to your phon
    - Path: `url-receiver-android/extension`
 5. Pin the **URL Sender** extension icon in your Chrome toolbar.
 6. Click the extension icon, expand the **Connection Settings**, and configure:
-   - **Relay Server URL**: Point to your web service (e.g., `https://web-relay.onrender.com`).
+   - **Relay Server URL**: Point to your web service (e.g., `https://my-address.onrender.com`).
    - **Secret Token**: Set the **exact matching token** configured on your Android app.
 
 ---
